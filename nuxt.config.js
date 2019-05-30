@@ -1,6 +1,9 @@
 import pkg from './package'
 
 export default {
+  generate: {
+    fallback: true
+  },
   mode: 'universal',
 
   /*
@@ -27,6 +30,8 @@ export default {
   ** Global CSS
   */
   css: [
+    'reset-css', 
+		'~/assets/scss/style.scss'
   ],
 
   /*
