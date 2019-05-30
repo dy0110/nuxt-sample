@@ -11,7 +11,7 @@
 </template>
 
 <style scoped lang="scss">
-  @import "~assets/scss/variables";
+  
 
   .error {
     h2 {

@@ -44,7 +44,14 @@ export default {
   ** Nuxt.js modules
   */
   modules: [
+    '@nuxtjs/style-resources',
   ],
+
+  styleResources: {
+    sass: [
+      '~/assets/scss/_variables.scss' // 読みませたいscssファイルを指定します。
+    ]
+  },
 
   /*
   ** Build configuration
